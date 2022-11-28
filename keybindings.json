@@ -5,8 +5,9 @@
     {"key": "ctrl+[", "command": "cursorMove", "args": {"to": "prevBlankLine"}},
     {"key": "ctrl+]", "command": "cursorMove", "args": {"to": "nextBlankLine"}},
 
-    {"key": "ctrl+s", "command": "workbench.action.closeSidebar", "when": "explorerViewletFocus"},
     {"key": "ctrl+s", "command": "workbench.files.action.focusFilesExplorer", "when": "!explorerViewletFocus"},
-    // {"key": "ctrl+d", "command": "workbench.action.focusActiveEditorGroup"},
-    {"key": "ctrl+d", "command": "workbench.action.togglePanel"},
+    {"key": "ctrl+s", "command": "workbench.action.closeSidebar", "when": "explorerViewletFocus"},
+    {"key": "ctrl+f", "command": "explorer.newFile", "when": "explorerViewletFocus"},
+    {"key": "ctrl+d", "command": "explorer.newFolder", "when": "explorerViewletFocus"},
+    {"key": "ctrl+x", "command": "workbench.action.togglePanel"},
 ]
