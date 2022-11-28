@@ -1,13 +1,17 @@
 [
-    {"key": "ctrl+r", "command": "workbench.action.reloadWindow"},
-    {"key": "ctrl+w", "command": "workbench.action.closeWindow"},
+    {"key": "ctrl+r", "command": "workbench.action.reloadWindow", "when": "!explorerViewletFocus"},
+    {"key": "ctrl+w", "command": "workbench.action.closeActiveEditor"},
     {"key": "ctrl+a", "command": "cursorMove", "args": {"to": "wrappedLineFirstNonWhitespaceCharacter"}},
     {"key": "ctrl+[", "command": "cursorMove", "args": {"to": "prevBlankLine"}},
     {"key": "ctrl+]", "command": "cursorMove", "args": {"to": "nextBlankLine"}},
 
     {"key": "ctrl+s", "command": "workbench.files.action.focusFilesExplorer", "when": "!explorerViewletFocus"},
+    
     {"key": "ctrl+s", "command": "workbench.action.closeSidebar", "when": "explorerViewletFocus"},
     {"key": "ctrl+f", "command": "explorer.newFile", "when": "explorerViewletFocus"},
     {"key": "ctrl+d", "command": "explorer.newFolder", "when": "explorerViewletFocus"},
+    {"key": "ctrl+r", "command": "renameFile", "when": "!explorerViewletFocus"},
+    {"key": "enter", "command": "explorer.openAndPassFocus", "when": "explorerViewletFocus"},
+
     {"key": "ctrl+x", "command": "workbench.action.togglePanel"},
 ]
