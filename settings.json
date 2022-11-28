@@ -49,13 +49,20 @@
                     }
                 },
                 {
-                    "scope": ["keyword.other", "markup.underline"],
+                    "scope": "keyword.other",
                     "settings": {
                         "fontStyle": ""
                     }
                 },
                 {
-                    "scope": ["variable", "variable.parameter"],
+                    "scope": "markup.underline",
+                    "settings": {
+                        "foreground": "#128bcf",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": ["variable", "variable.parameter", ""],
                     "settings": {
                         "foreground": "#56aa4b",
                     }
