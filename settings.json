@@ -1,0 +1,72 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 250,
+    "rust-analyzer.hover.actions.enable": false,
+    "rust-analyzer.hover.actions.gotoTypeDef.enable": false,
+    "rust-analyzer.hover.actions.implementations.enable": false,
+    "rust-analyzer.hover.actions.run.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.lens.enable": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "svelte.enable-ts-plugin": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 15,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+    "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+    "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+    "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.fontFamily": "HackGen35ConsoleNFJ-Regular, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.statusBar.visible": false,
+    "haskell.manageHLS": "GHCup",
+    "haskell.plugin.ghcide-completions.config.snippetsOn": false,
+    "rust-analyzer.completion.callable.snippets": "none",
+    "workbench.editor.enablePreview": false,
+
+    "workbench.colorTheme": "Better Solarized Dark",
+    "workbench.colorCustomizations": {
+        "[Better Solarized Dark]": {
+            "editorCursor.foreground": "#437aff",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Better Solarized Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": ["entity.name.type", "support.type"],
+                    "settings": {
+                        "foreground": "#aaafaa",
+                    }
+                },
+                {
+                    "scope": ["keyword.other", "markup.underline"],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": ["variable", "variable.parameter"],
+                    "settings": {
+                        "foreground": "#56aa4b",
+                    }
+                },
+                {
+                    "scope": "constant.numeric",
+                    "settings": {
+                        "foreground": "#f99072",
+                    }
+                }
+            ]
+        }
+    },
+}

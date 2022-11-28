@@ -1,0 +1,12 @@
+[
+    {"key": "ctrl+r", "command": "workbench.action.reloadWindow"},
+    {"key": "ctrl+w", "command": "workbench.action.closeWindow"},
+    {"key": "ctrl+a", "command": "cursorMove", "args": {"to": "wrappedLineFirstNonWhitespaceCharacter"}},
+    {"key": "ctrl+[", "command": "cursorMove", "args": {"to": "prevBlankLine"}},
+    {"key": "ctrl+]", "command": "cursorMove", "args": {"to": "nextBlankLine"}},
+
+    {"key": "ctrl+s", "command": "workbench.action.closeSidebar", "when": "explorerViewletFocus"},
+    {"key": "ctrl+s", "command": "workbench.files.action.focusFilesExplorer", "when": "!explorerViewletFocus"},
+    // {"key": "ctrl+d", "command": "workbench.action.focusActiveEditorGroup"},
+    {"key": "ctrl+d", "command": "workbench.action.togglePanel"},
+]
